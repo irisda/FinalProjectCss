@@ -259,7 +259,7 @@ hr{
   align-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 800px) {
   header {
     display: flex;
     flex-direction: column-reverse;
@@ -328,22 +328,6 @@ display:none
 }
 
 
-@media only screen and (min-width: 768px) {
-  .img-collection > img{
-    display:none
-    }
-    .section1{
-      display:flex;
-      flex-direction: column;
-      align-content: center;
-    }
-    .section2, .section3, .section4{
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    .section5{
-      width:100%;
-      background-color: #e9eeff
-    }
-
-   }
+@media (min-width: 1200px){
+  @content
+}
